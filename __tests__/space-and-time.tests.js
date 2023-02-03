@@ -1,9 +1,11 @@
-import {PlanetaryYears} from './../src/space-and-time.js';
+import {Planet} from './../src/space-and-time.js';
 
-describe('PlanetaryYears', () => {
+describe('Planet', () => {
 
-  test('this test should see if the constructor works', () => {
-    let years = new PlanetaryYears("34")
-    expect(years.earthYears).toEqual("34");
+  test('should make a object with stats on a planet', () => {
+    let mercury = new Planet(87.969)
+    expect(mercury.yearsOld).toEqual();
   });
 });
+
+describe('')
