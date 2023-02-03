@@ -1,4 +1,4 @@
-import {PlanetaryYears} from './../src/time-and-space.js';
+import {PlanetaryYears} from './../src/space-and-time.js';
 
 describe('PlanetaryYears', () => {
 
