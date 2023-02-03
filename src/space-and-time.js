@@ -1,5 +1,6 @@
 export class Planet{
-  constructor(earthDaysPerYear) {
-    this.yearsOld = undefined;
+  constructor(name, earthDaysPerYear) {
+    this.name = 0;
+    this.oneYearIs = 0;
   };
 };
