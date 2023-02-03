@@ -1,6 +1,6 @@
 export class Planet{
   constructor(name, earthDaysPerYear) {
-    this.name = 0;
-    this.oneYearIs = 0;
+    this.name = name;
+    this.oneYearIs = (earthDaysPerYear / 365.2564)
   };
 };
