@@ -7,5 +7,4 @@ export class Planet{
 
 export const makePlanets = () => {
   let mercuryArray = ["Mercury", 87.969];
-
 }
