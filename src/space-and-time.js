@@ -4,3 +4,8 @@ export class Planet{
     this.oneYearIs = (earthDaysPerYear / 365.2564).toFixed(2)
   };
 };
+
+export const makePlanets = () => {
+  let mercuryArray = ["Mercury", 87.969];
+
+}
