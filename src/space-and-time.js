@@ -6,6 +6,8 @@ export class Planet{
 };
 
 export const makePlanets = () => {
+  let planetsArray = [];
   let mercuryArray = ["Mercury", 87.969];
+  // planetsArray.push(mercuryArray);
   return mercuryArray;
 }

@@ -25,3 +25,11 @@ describe('makePlanets', () => {
   expect(array).toEqual(["Mercury", 87.969])
   });
 });
+
+describe('makePlanets', () => {
+
+  test('should use the array in the function to create a object', () => {
+  makePlanets();
+  expect(planetsArray).toEqual([["Mercury", 87.969]]);
+  });
+});
