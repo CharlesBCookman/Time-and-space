@@ -13,6 +13,7 @@ export class PlanetObject{
 };
 
 export const makePlanets = () => {
-  let planetsArray =  [["Mercury", 87.969, 4223.04], ["Venus", 224.7, 2808], ["Earth", 365.2564, 24], ["Mars", 687.0107, 24.660], ["Jupiter", 4332.59, 9.925], ["Saturn", 10759, 10.55], ["Uranus", 306888.5, 17.24], ["Neptune", 60182, 16.11]];
-  
+  const planetsArray =  [["Mercury", 87.969, 4223.04], ["Venus", 224.7, 2808], ["Earth", 365.2564, 24], ["Mars", 687.0107, 24.660], ["Jupiter", 4332.59, 9.925], ["Saturn", 10759, 10.55], ["Uranus", 306888.5, 17.24], ["Neptune", 60182, 16.11]];
+  let planetObjectsArray = [];
+  // const mercury = PlanetObject(planetsArray[0]);
 }
