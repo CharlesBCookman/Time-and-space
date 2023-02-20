@@ -1,4 +1,4 @@
-import {PlanetObject} from './../src/space-and-time.js';
+import {PlanetObject, makePlanets} from './../src/space-and-time.js';
 
 describe('PlanetObject Creator', () => {
 
@@ -9,13 +9,13 @@ describe('PlanetObject Creator', () => {
   });
 });
 
-// describe('', () => {
+describe('makePlanets', () => {
 
-//   test('should make a venus variable object with stats on a planet', () => {
-//     let venus = new Planet("Venus", 224.7, 2808)
-//     expect(venus.planet).toEqual("Venus");
-//     expect(venus.earthDaysPerYear).toEqual(224.7);
-//     expect(venus.hoursPerDay).toEqual(2808);
-//   });
-// });
+  test('should make a venus variable object with stats on a planet in an array that is the return for the function', () => {
+    let planets = makePlanets();
+    expect(venus.planet).toEqual("Venus");
+    expect(venus.earthDaysPerYear).toEqual(224.7);
+    expect(venus.hoursPerDay).toEqual(2808);
+  });
+});
 
