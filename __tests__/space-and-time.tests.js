@@ -13,9 +13,9 @@ describe('makePlanets', () => {
 
   test('should make a venus variable object with stats on a planet in an array that is the return for the function', () => {
     let planets = makePlanets();
-    expect(venus.planet).toEqual("Venus");
-    expect(venus.earthDaysPerYear).toEqual(224.7);
-    expect(venus.hoursPerDay).toEqual(2808);
+    expect(planets.venus.planet).toEqual("Venus");
+    expect(planets.venus.earthDaysPerYear).toEqual(224.7);
+    expect(planets.venus.hoursPerDay).toEqual(2808);
   });
 });
 

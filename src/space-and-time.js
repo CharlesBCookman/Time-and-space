@@ -20,5 +20,5 @@ export const makePlanets = () => {
   const venus = new PlanetObject("Venus", 224.7, 2808);
   planetObjects = {mercury, venus};
   console.log(planetObjects);
-
+  return planetObjects;
 }
