@@ -35,6 +35,6 @@ describe('convertYearsToYears', () => {
 
   test('should work as a class method that can convert years into a planets years', () => {
     let planets = makePlanets();
-    expect(planets.convertYearsToYears(13, planets.mars.earthDaysPerYear)).toEqual(6.91);
+    expect(planets.mars.convertYearsToYears(13, planets.mars.earthDaysPerYear)).toEqual("6.91");
   });
 });

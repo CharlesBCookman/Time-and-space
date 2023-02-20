@@ -6,7 +6,7 @@ export class PlanetObject{
   }
   convertYearsToYears(years, otherPlanetsDaysPerYear){
     let convertedYears = (years * 365.2564 / otherPlanetsDaysPerYear);
-    // return convertedYears.toFixed(2);
+    return convertedYears.toFixed(2);
   }
   // convertYearsToDays(years){
 
