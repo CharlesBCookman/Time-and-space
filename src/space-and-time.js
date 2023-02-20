@@ -24,7 +24,7 @@ export const makePlanets = () => {
   const saturn = new PlanetObject("Saturn", 10759, 10.55);
   const uranus = new PlanetObject("Uranus", 306888.5, 17.24);
   const neptune = new PlanetObject("Neptune", 60182, 16.11);
-  planetObjects = {mercury, venus};
+  planetObjects = {mercury, venus, earth, mars, jupiter, saturn, uranus, neptune};
   console.log(planetObjects);
   return planetObjects;
 }
