@@ -19,3 +19,15 @@ describe('makePlanets', () => {
   });
 });
 
+describe('makePlanets', () => {
+
+  test('should make a variable object with stats on each planet in an array that is the return for the function', () => {
+    let planets = makePlanets();
+    expect(planets.mars.planet).toEqual("Mars");
+    expect(planets.jupiter.planet).toEqual("Jupiter");
+    expect(planets.saturn.planet).toEqual("Saturn");
+    expect(planets.uranus.planet).toEqual("Uranus");
+    expect(planets.neptune.planet).toEqual("Neptune");
+  });
+});
+
